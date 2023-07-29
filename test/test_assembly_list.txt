@@ -1,0 +1,1 @@
+Sc_test	/full/path/to/saccharomyces_cerevisiae.fasta
