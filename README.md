@@ -24,7 +24,7 @@ A fasta of extracted mitochondrial contigs, a summary file for each assembly in 
 The pipeline was designed for use on yeast genomes, but is organism agnostic. Reference genomes for use with yeast are provided in "mito_anchors_V4" and described in "select.strain_info_accessions.tab". If you wish to run it on a different group then change out the files "select_sources.fasta" to include the reference genomes and "select_mito_core_cds.fasta" to include the CDS extracted from those references. Modify the "gene_targets" file as needed to match your desired list of ouput genes (must be in MFANNOT naming format).
 
 # Parallelization on HTCondr:
-This pipeline was originally developed for use on HTCondor systems to take advantange of using DAGs for parallelization. The version presented here is not parallelized and is suitable for any UNIX system with bash. If the DAG version of the pipeline would be useful to you please reach out and we would be happy to provid eit.
+This pipeline was originally developed for use on HTCondor systems to take advantange of using DAGs for parallelization. The version presented here is not parallelized and is suitable for any UNIX system with bash. If the DAG version of the pipeline would be useful to you please reach out and we would be happy to provide it.
 
 # To Cite:
 Reference TBD
